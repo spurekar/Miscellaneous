@@ -1,5 +1,5 @@
 friction = 0.95;
-gravity = 1.0;
+gravity = 0.7;
 
 var Player = function(){
 	var xposition = canvas.width/2;
@@ -137,24 +137,3 @@ function keyup(e){
 	}
 }
 
-
-
-
-
-
-
-
-
-		// if (xvelocity>0){
-		// 	friction = -2.0;
-
-		// }
-		// else if (xvelocity<0){
-		// 	friction = 2.0;
-		// }
-		// else friction =0;
-		// console.log(friction);
-
-		// friction = -xvelocity/;
-		// // if (xacceleration - friction
-		// 	xacceleration +=friction;
