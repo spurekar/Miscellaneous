@@ -30,7 +30,6 @@ var Player = function(){
 			yvelocity = 0;
 			yposition = canvas.height;
 			}
-
 	}
 	this.moveRight = function() {
 		console.log("right!");
@@ -87,7 +86,7 @@ function gameLogic() {
 }
 
 function draw() {
-	ctx.clearRect(0,0,canvas.width, canvas.height);
+	//ctx.clearRect(0,0,canvas.width, canvas.height);
 	ctx.fillStyle = "333399";
 	ctx.fillRect(0,0,canvas.width, canvas.height);
 
